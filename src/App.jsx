@@ -193,9 +193,9 @@ export default function App() {
             </h1>
 
             <p className="mt-8 max-w-md text-2xl font-bold leading-tight md:text-3xl">
-              building thoughtful things
+              building habit-forming
               <br />
-              for the internet.
+              products
             </p>
           </motion.div>
 

@@ -195,7 +195,7 @@ export default function App() {
             <p className="mt-8 max-w-md text-2xl font-bold leading-tight md:text-3xl">
               building habit-forming
               <br />
-              products
+              products.
             </p>
           </motion.div>
 

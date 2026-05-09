@@ -182,7 +182,7 @@ export default function App() {
             transition={{ duration: 0.6 }}
             className="flex flex-col justify-center"
           >
-            <Badge>New Yorker Based in San Francisco</Badge>
+            <Badge>New Yorker in San Francisco</Badge>
 
             <h1 className="mt-8 text-[19vw] font-black uppercase leading-[0.82] tracking-[-0.06em] md:text-[8vw]">
               PM

@@ -157,7 +157,7 @@ export default function App() {
           }}
         />
 
-        <nav className="relative z-10 mx-auto flex max-w-7xl items-center justify-between border-b border-black/10 px-6 py-5">
+<nav className="relative z-10 mx-auto flex max-w-7xl flex-col items-start gap-4 border-b border-black/10 px-6 py-5 md:flex-row md:items-center md:justify-between">
         <div className="text-lg font-black uppercase tracking-[0.18em] md:text-xl">
             Sharin Khander
           </div>
@@ -187,26 +187,25 @@ export default function App() {
             <h1 className="mt-8 text-[19vw] font-black uppercase leading-[0.82] tracking-[-0.06em] md:text-[8vw]">
               PM
               <br />
-              Engineer
+              ENGINEER
               <br />
-              Designer
+              DESIGNER
             </h1>
 
             <p className="mt-8 max-w-md text-2xl font-bold leading-tight md:text-3xl">
-              building habit-forming
+            building habit-forming products.
               <br />
-              products.
             </p>
           </motion.div>
 
-          <div className="flex flex-col justify-center gap-8">
+          <div className="flex flex-col gap-8 md:justify-center">
             <motion.img
               src="/profile.jpeg"
               alt="Sharin Khander"
               initial={{ opacity: 0, y: 24, rotate: 1 }}
               animate={{ opacity: 1, y: 0, rotate: 0 }}
               transition={{ duration: 0.7, delay: 0.15 }}
-              className="mt-12 ml-35 aspect-[4/3.5] w-ull max-w-sm rounded-[1.5rem] border-2 border-black object-cover object-top shadow-sm"
+className="mt-2 md:mt-12 aspect-[4/3.5] w-full max-w-sm rounded-[1.5rem] border-2 border-black object-cover object-top shadow-sm md:ml-auto"
             />
 
             <div className="ml-auto max-w-sm rounded-[1.5rem] bg-[#101014] p-8 text-white shadow-xl">
@@ -218,19 +217,21 @@ export default function App() {
                 marketplaces, personalization, fashion, consumer psychology, and delightful interfaces.
               </p>
             </div>
-
-            <button
-              onClick={shakeWorld}
-              className="ml-auto rounded-full border border-black/10 bg-[#D7FF38] px-10 py-4 text-sm font-black uppercase tracking-[0.2em] shadow-lg transition-transform hover:scale-[1.03]"
-            >
-              shake the blocks
-            </button>
+            <div className="flex justify-center md:justify-end md:pr-10 mt-4">
+              <button
+                onClick={shakeWorld}
+                className="w-fit rounded-full border border-black/10 bg-[#D7FF38] px-8 py-3 text-sm font-black uppercase tracking-[0.2em] shadow-lg transition-transform hover:scale-[1.03]"
+              >
+                disturb the system
+              </button>
+            </div>
           </div>
         </div>
+
         <div
-  ref={sceneRef}
-  className="absolute left-[2%] right-[18%] top-[50%] bottom-[5rem] z-[2]"
-/>
+          ref={sceneRef}
+          className="absolute left-[2%] right-[18%] top-[58%] bottom-[5rem] z-[2]"
+        />
       </section>
     </main>
   );

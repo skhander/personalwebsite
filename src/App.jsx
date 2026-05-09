@@ -224,7 +224,7 @@ className="mt-2 md:mt-12 aspect-[4/3.5] w-full max-w-sm rounded-[1.5rem] border-
                 onClick={shakeWorld}
                 className="w-fit rounded-full border border-black/10 bg-[#D7FF38] px-8 py-3 text-sm font-black uppercase tracking-[0.2em] shadow-lg transition-transform hover:scale-[1.03]"
               >
-                disturb the system
+                Shake Things Up
               </button>
             </div>
           </div>

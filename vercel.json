@@ -1,9 +1,14 @@
 {
-    "redirects": [
-      {
-        "source": "/homepage",
-        "destination": "/",
-        "permanent": true
-      }
-    ]
-  }
+  "redirects": [
+    {
+      "source": "/homepage/:path*",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/homepage",
+      "destination": "/",
+      "permanent": true
+    }
+  ]
+}

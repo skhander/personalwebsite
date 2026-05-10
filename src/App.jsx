@@ -213,7 +213,7 @@ className="mt-2 md:mt-12 aspect-[4/3.5] w-full max-w-sm rounded-[1.5rem] border-
               </div>
 
               <p className="text-xl font-medium leading-snug text-white/85">
-              marketplaces, personalization, AI discovery, taste, and playful UX
+              marketplaces, personalization, AI discovery, and taste
               </p>
             </div>
             <div className="flex justify-center md:justify-end md:pr-20 mt-2">

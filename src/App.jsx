@@ -12,7 +12,7 @@ const palette = {
 
 function Badge({ children }) {
   return (
-    <span className="inline-flex rounded-full border border-black/20 bg-white/80 px-5 py-2 text-xs font-black uppercase tracking-[0.18em] shadow-sm backdrop-blur">
+    <span className="inline-flex rounded-full border border-black/20 bg-white/80 px-5 py-2 text-xs font-black uppercase tracking-[0.18em] shadow-sm backdrop-blur transition-all duration-150 hover:-translate-y-0.5 hover:shadow-md">
       {children}
     </span>
   );
@@ -183,7 +183,7 @@ export default function App() {
             className="flex flex-col justify-center"
           >
 
-            <h1 className="mt-4 text-[21vw] font-black uppercase leading-[0.9] tracking-[-0.04em] text-[#101014] sm:text-[18vw] md:text-[7.5vw] [font-family:Impact,Arial_Black,sans-serif]">
+            <h1 className="mt-4 text-[13vw] font-black uppercase leading-[0.90] tracking-[-0.04em] text-[#101014] sm:text-[18vw] md:text-[7.5vw] [font-family:Impact,Arial_Black,sans-serif]">
               PM
               <br />
               ENGINEER

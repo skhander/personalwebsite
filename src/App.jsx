@@ -192,7 +192,7 @@ export default function App() {
             </h1>
 
             <p className="mt-8 max-w-md text-2xl font-bold leading-tight md:text-3xl">
-            building habit-forming products.
+            building habit-forming products people love.
               <br />
             </p>
           </motion.div>
@@ -213,10 +213,10 @@ className="mt-2 md:mt-12 aspect-[4/3.5] w-full max-w-sm rounded-[1.5rem] border-
               </div>
 
               <p className="text-xl font-medium leading-snug text-white/85">
-                marketplaces, personalization, fashion, consumer tech, and delightful interfaces.
+              marketplaces, personalization, AI discovery, taste, and playful UX
               </p>
             </div>
-            <div className="flex justify-center md:justify-end md:pr-10 mt-4">
+            <div className="flex justify-center md:justify-end md:pr-20 mt-2">
               <button
                 onClick={shakeWorld}
                 className="w-fit rounded-full border border-black/10 bg-[#D7FF38] px-8 py-3 text-sm font-black uppercase tracking-[0.1em] shadow-lg transition-transform hover:scale-[1.03]"

@@ -182,11 +182,8 @@ export default function App() {
             transition={{ duration: 0.6 }}
             className="flex flex-col justify-center"
           >
-<div className="hidden md:block">
-  <Badge>New Yorker Based in San Francisco</Badge>
-</div>
 
-            <h1 className="mt-8 text-[19vw] font-black uppercase leading-[0.82] tracking-[-0.06em] md:text-[8vw]">
+            <h1 className="mt-4 text-[21vw] font-black uppercase leading-[0.9] tracking-[-0.04em] text-[#101014] sm:text-[18vw] md:text-[7.5vw] [font-family:Impact,Arial_Black,sans-serif]">
               PM
               <br />
               ENGINEER
@@ -216,15 +213,15 @@ className="mt-2 md:mt-12 aspect-[4/3.5] w-full max-w-sm rounded-[1.5rem] border-
               </div>
 
               <p className="text-xl font-medium leading-snug text-white/85">
-                marketplaces, personalization, fashion, consumer psychology, and delightful interfaces.
+                marketplaces, personalization, fashion, consumer tech, and delightful interfaces.
               </p>
             </div>
             <div className="flex justify-center md:justify-end md:pr-10 mt-4">
               <button
                 onClick={shakeWorld}
-                className="w-fit rounded-full border border-black/10 bg-[#D7FF38] px-8 py-3 text-sm font-black uppercase tracking-[0.2em] shadow-lg transition-transform hover:scale-[1.03]"
+                className="w-fit rounded-full border border-black/10 bg-[#D7FF38] px-8 py-3 text-sm font-black uppercase tracking-[0.1em] shadow-lg transition-transform hover:scale-[1.03]"
               >
-                Shake Things Up
+                shake things up
               </button>
             </div>
           </div>

@@ -1,16 +1,20 @@
-sharinkhander.com
-Personal site for Sharin Khander — product manager and engineer building thoughtful consumer internet experiences.
-About
-A minimal personal website featuring an interactive floating blocks animation built with vanilla JavaScript.
-Running locally
-bashgit clone https://github.com/sharinkhander/your-site.git
-cd your-site
-open index.html
-No build tools required.
-Tech
+# 👋 sharinkhander.com
 
-Vanilla JavaScript — custom floating block physics
-HTML & CSS
+> Building habit-forming products people love.
 
-Live
-sharinkhander.com
+---
+
+## ✦ About
+
+Personal website for **Sharin Khander** — product manager and engineer. The homepage features a live 2D physics simulation of floating, colliding blocks powered by Matter.js.
+
+## 🛠 Tech
+
+| Layer | Tool |
+|---|---|
+| Physics | [Matter.js](https://brm.io/matter-js/) |
+| Language | JavaScript, HTML, CSS |
+
+---
+
+Made by [Sharin Khander](https://sharinkhander.com)
